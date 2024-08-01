@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Greeting</title>
+	</head>	
+	<body>
+		<div>
+			<h1>Hello World!</h1>
+			<h2 th:text="'il tuo nome è ' + ${name}"/>
+			<h3 th:text="'e sono le ' + ${time}"/>
+		</div>
+	</body>
+</html>
